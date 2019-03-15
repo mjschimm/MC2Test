@@ -17,7 +17,7 @@ body {
     opacity: 0;
     left: -100px;
     position: relative;
-    animation: Logo_Animation .8s  .2s forwards;
+    animation: Logo_Animation .8s .2s forwards;
 }
 
 @keyframes Logo_Animation {
@@ -43,7 +43,7 @@ input {
     font-size: 14px;
 }
 
-::-webkit-input-placeholder,  {
+::-webkit-input-placeholder {
     font-family: Helvetica;
     font-size: 14px;
 }
@@ -71,6 +71,12 @@ input {
     h1 {
         font-family: Helvetica;
     }
+    .team-members {
+        transform: rotateY(90deg);
+    }
+    .animate-team-members {
+        animation: Animate_Team_Members 1s forwards;
+    }
     hr {
         border-color: black;
         border-width: 2px;
@@ -79,6 +85,10 @@ input {
     h4 {
         text-align: center;
     }
+}
+
+@keyframes Animate_Team_Members {
+    to {transform: rotateY(0deg);}
 }
 
 .footer {
