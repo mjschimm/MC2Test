@@ -1,6 +1,6 @@
 # MC2 Interview Assignment
 
-## Time (hourse:minutes)
+## Time (hours:minutes)
 
 0:30 - Setting up workspace in VSCode, configuring assets/static files, Github repo, etc.
 
