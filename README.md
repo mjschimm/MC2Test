@@ -1,4 +1,4 @@
-# MC2 Interview Test
+# MC2 Interview Assignment
 
 ## Time (hourse:minutes)
 
